@@ -10,4 +10,19 @@
 #   universal: false
 
 -e file:.
+altgraph==0.17.4
+    # via pyinstaller
+packaging==24.1
+    # via pyinstaller
+    # via pyinstaller-hooks-contrib
+pefile==2023.2.7
+    # via pyinstaller
+pyinstaller==6.10.0
+pyinstaller-hooks-contrib==2024.8
+    # via pyinstaller
+pywin32-ctypes==0.2.3
+    # via pyinstaller
 ruff==0.6.2
+setuptools==73.0.1
+    # via pyinstaller
+    # via pyinstaller-hooks-contrib
